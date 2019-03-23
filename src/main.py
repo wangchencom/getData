@@ -68,8 +68,8 @@ https://music.163.com/#/playlist?id=xxxxxxxxxx\n \
 		self.counter = counter
 
 
-		if not os.path.exists("c:/music"):
-			os.mkdir('c:/music')
+		if not os.path.exists("d:/music"):
+			os.mkdir('d:/music')
 		
 
 	def __del__( self ):
