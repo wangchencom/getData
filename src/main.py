@@ -42,7 +42,7 @@ class MyFrame1 (threading.Thread,wx.Frame):
 		self.output_text = wx.TextCtrl( self, wx.ID_ANY, u" \
 网易云音乐歌单下载，网页中复制URL\n \
 https://music.163.com/#/playlist?id=xxxxxxxxxx\n \
-保存目录：C:\\music\n \
+保存目录：D:\\music\n \
 线程只能执行一次，下载后如需重新下载其他需要重启\n \
 可多开下载同个歌单或者不同歌单\n \
 -------------------------------------------------------\n \
